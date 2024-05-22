@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header>img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    transition: transform 3s;
+
+}
+
+header>img:hover{
+    transform: rotateX(360deg);
+}
+
+nav{
+    text-align: center;
+    border-radius: 25px;
+    background-color: black;
+    color: azure;
+    height: 30px;
+}
+
+nav:hover{
+    background-color:blue;
+}
+
+nav > a{
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+}
+
+nav>a:hover{
+    color:aqua;
+}
+
+section{
+    display: flex;
+    margin-top: 2rem;
+}
+
+article{
+    flex: 1;
+    margin: 2px;
+    background-color: rgb(236, 192, 110);
+    border-radius: 25px;
+    padding: 5%;
+    position: relative;
+}
+
+
+.promotion{
+    background-image: url(./Little-Lemon-logos/pastagif.gif);
+    background-size:cover;
+    color:azure;
+    border-radius: 25px;
+    padding-left: 5%;
+}
+
+
+.promotion>h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+article > h2{
+    font-size: larger;
+    margin-bottom: 15%;
+    top: 10px;
+    left: 10px;
+}
+
+article > img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+
+article > a{
+    position: absolute;
+    bottom: 10px;
+    left: 6px;
+    font-size: 15px;
+}
+
+.opening > ul{
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: left;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    padding-top: 3%;
+}
+
+footer div{
+    flex:1;
+}
+
+.copyright{
+    border-top: 3px solid #121212;
+}
+.copyright > p{
+    text-align: right;
+}
+
+
